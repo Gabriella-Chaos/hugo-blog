@@ -1,5 +1,5 @@
 name = "pages-app"
 pages_build_output_dir = "./public"
 [vars]
-CF_PAGES_URL=blog.gabriellachaos.com
-HUGO_VERSION="v0.138.0+extended"
+CF_PAGES_URL = "blog.gabriellachaos.com"
+HUGO_VERSION = "v0.138.0+extended"
