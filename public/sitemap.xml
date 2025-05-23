@@ -8,7 +8,13 @@
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-11-07T22:06:18-08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/archives/archived/</loc>
+    <lastmod>2024-11-06T22:57:07-08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/archives/</loc>
+    <lastmod>2024-11-06T22:57:07-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/archives/</loc>
     <lastmod>2024-11-06T22:57:07-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
@@ -32,7 +38,5 @@
     <loc>http://localhost:1313/posts/math-examples/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/zerotier/</loc>
-  </url><url>
-    <loc>http://localhost:1313/archives/</loc>
   </url>
 </urlset>
