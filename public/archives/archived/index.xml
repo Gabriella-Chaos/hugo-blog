@@ -1,33 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My Hugo Site</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on My Hugo Site</description>
+    <title>Archived on My Hugo Site</title>
+    <link>http://localhost:1313/archives/archived/</link>
+    <description>Recent content in Archived on My Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 06 Nov 2024 22:57:07 -0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archives/archived/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Create Swap Memory for Linux instance</title>
       <link>http://localhost:1313/posts/swap/</link>
       <pubDate>Wed, 06 Nov 2024 22:57:07 -0800</pubDate>
       <guid>http://localhost:1313/posts/swap/</guid>
       <description>&lt;h2 id=&#34;prerequisite&#34;&gt;Prerequisite&lt;/h2&gt;&#xA;&lt;p&gt;Verify that your file system supports the usage of swap files. For more information, see Swapfile on the BTRFS website. It is a best practice to check the latest file system documentation to confirm that your file system is supported.&#xA;Calculate the swap space size&lt;/p&gt;&#xA;&lt;h2 id=&#34;create-a-swap-file&#34;&gt;Create a swap file&lt;/h2&gt;&#xA;&lt;p&gt;Note: It&amp;rsquo;s a best practice to create swap space only on ephemeral storage instance store volumes.&lt;/p&gt;&#xA;&lt;p&gt;Complete the following steps:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/posts/math-examples/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/math-examples/</guid>
-      <description>&lt;p&gt;This is an inline \(a^*=x-b^*\) equation.&lt;/p&gt;&#xA;&lt;p&gt;These are block equations:&lt;/p&gt;&#xA;\[a^*=x-b^*\]\[ a^*=x-b^* \]\[&#xA;a^*=x-b^*&#xA;\]&lt;p&gt;These are also block equations:&lt;/p&gt;&#xA;$$a^*=x-b^*$$$$ a^*=x-b^* $$$$&#xA;a^*=x-b^*&#xA;$$</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/posts/zerotier/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/zerotier/</guid>
-      <description>&lt;h1 id=&#34;zero-tier-vpn&#34;&gt;Zero Tier VPN&lt;/h1&gt;</description>
     </item>
   </channel>
 </rss>

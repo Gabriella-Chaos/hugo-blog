@@ -14,7 +14,29 @@ theme = "ananke"
 		name = "Category"
 		url = "/categories/"
 		weight = 1
+	[[menu.main]]
+		identifier = "tags"
+		name = "Tag"
+		url = "/tags/"
+		weight = 1
+	[[menu.main]]
+		identifier = "archives"
+		name = "Archive"
+		url = "/archives/archived"
+		weight = 1
 
 [taxonomies]
-  category = "categories"
-  tag = "tags"
+  categories = "categories"
+  tags = "tags"
+  archives = "archives"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+[params]
+  math = true
